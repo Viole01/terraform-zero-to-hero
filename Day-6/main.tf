@@ -1,5 +1,6 @@
 provider "aws" {
-  region = "us-east-1"
+  profile = "prajjwal"
+  region  = "us-east-1"
 }
 
 variable "AMI" {
